@@ -10,9 +10,8 @@ This is a tool to help a League's Teams ..
 	4) generate performance Reports about Team (Club). A manager and Coach can do that for their team.
 	5) Scout players in that league based on given search heuristics. A scout does that.
 	6) Transfer Players Between Clubs. A Manager places a Transfer Request, A Transfer agent Processess it through then commit is made.
-
-Note that this is a simulation and although possible for slow match(video) playback, 
-it will not be feasible to capture real LIVE data for all the players in match. So Centralization of software and 
+	
+Note that this is a simulation and although possible for slow match(video) playback, it will not be feasible to capture real LIVE data for all the players in match. So Centralization of software and 
 concurrency can be an improvement. for obvious reasons this has been left as is. 
 
 Concurrency:
