@@ -1,8 +1,6 @@
 # FOOTMASS-football-management-scouting-statistics-engine
 Football team management, Performance data collection, Scouting (user defined heuristics), and statistics (Player and team Performance Reports)
 
-This was an ambitious Academic project, for Object Oriented Analysis and Design course, I continued to do some work on improving it.
-
 This is a tool to help a League's Teams .. 
 	1) manage its players, (Squad) All managers in the league can manage all their Players. uses simple Authorization.
 	2) collect their performance Data in a live match.
