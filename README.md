@@ -7,10 +7,10 @@ This is a tool to help a League's Teams ..
 
 1) manage its players, (Squad) All managers in the league can manage all their Players. uses simple Authorization.  
 2) collect their performance Data in a live match,
-4) generate performance Reports about Individuals(Player). A manager and Coach can do that for their team. 
-5) generate performance Reports about Team (Club). A manager and Coach can do that for their team. 
-6) Scout players in that league based on given search heuristics. A scout does that. 
-7) Transfer Players Between Clubs. A Manager places a Transfer Request. A Transfer agent Processess it through then commit is made
+3) generate performance Reports about Individuals(Player). A manager and Coach can do that for their team.
+4) generate performance Reports about Team (Club). A manager and Coach can do that for their team. 
+5) Scout players in that league based on given search heuristics. A scout does that. 
+6) Transfer Players Between Clubs. A Manager places a Transfer Request, A Transfer agent Processess it through then commit is made
 
 Note that this is a simulation and although possible for slow match(video) playback, 
 it will not be feasible to capture real LIVE data for all the players in match. So Centralization of software and 
