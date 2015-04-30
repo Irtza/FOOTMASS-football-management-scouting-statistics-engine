@@ -22,7 +22,7 @@ public class ui_for_TeamManager_managerTransfers_sign {
 	 */
 	public void initialize( String tempname, String tempclub) 
 	{
-		Controller_footmass controllerobj = Controller_footmass.getInstance();
+		final Controller_footmass controllerobj = Controller_footmass.getInstance();
 		
 		frmPlaceIncomingTransfer = new JFrame();
 		frmPlaceIncomingTransfer.setTitle("Place Incoming Transfer Request");

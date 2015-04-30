@@ -25,7 +25,7 @@ public class ui_for_Scout {
 	
 	public void initialize(String usr, String pass) {
 		
-		Controller_footmass controllerobj = Controller_footmass.getInstance();
+		final Controller_footmass controllerobj = Controller_footmass.getInstance();
 		
 		tempclub = controllerobj.getscout(usr, pass).getClub_affiliation(); 
 		tempname = controllerobj.getscout(usr, pass).getName_scout();

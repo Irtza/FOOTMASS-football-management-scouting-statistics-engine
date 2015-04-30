@@ -30,7 +30,7 @@ public class footmass {
 	{
 		
 		//GETTING INSTANCES
-		Controller_footmass controllerobj = Controller_footmass.getInstance();
+		final Controller_footmass controllerobj = Controller_footmass.getInstance();
 		
 		frmFootballManagementAnd = new JFrame();
 		frmFootballManagementAnd.setResizable(false);

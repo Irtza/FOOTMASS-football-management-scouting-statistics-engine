@@ -24,7 +24,7 @@ public class ui_for_Coach {
 	 */
 	public void initialize(String usr, String pass) {
 		
-		Controller_footmass controllerobj = Controller_footmass.getInstance();
+		final Controller_footmass controllerobj = Controller_footmass.getInstance();
 		
 		frmCoachsPortal = new JFrame();
 		frmCoachsPortal.setTitle("Coach's Portal");
@@ -33,8 +33,8 @@ public class ui_for_Coach {
 		frmCoachsPortal.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmCoachsPortal.getContentPane().setLayout(null);
 		
-		String tempclub = controllerobj.getcoach_acc(usr, pass).getClub_affiliation(); 
-		String tempname = controllerobj.getcoach_acc(usr, pass).getName_coach();
+		final String tempclub = controllerobj.getcoach_acc(usr, pass).getClub_affiliation(); 
+		final String tempname = controllerobj.getcoach_acc(usr, pass).getName_coach();
 		
 		JButton btnNewButton = new JButton("Set up or change user account password");
 		btnNewButton.addActionListener(new ActionListener() {

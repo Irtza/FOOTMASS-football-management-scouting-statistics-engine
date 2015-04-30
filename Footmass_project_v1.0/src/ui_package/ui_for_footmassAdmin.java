@@ -20,7 +20,7 @@ public class ui_for_footmassAdmin {
 	 */
 	public void initialize()
 	{
-		Controller_footmass controllerobj = Controller_footmass.getInstance();
+		final Controller_footmass controllerobj = Controller_footmass.getInstance();
 		
 		frmWelcomeFootmassAdmin = new JFrame();
 		

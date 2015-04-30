@@ -26,7 +26,7 @@ public class ui_for_footmassadmin_addManager {
 	 */
 	public void initialize()
 	{
-		Controller_footmass controllerobj = Controller_footmass.getInstance();
+		final Controller_footmass controllerobj = Controller_footmass.getInstance();
 		
 		frmAddTeamManager = new JFrame();
 		frmAddTeamManager.setVisible(true);

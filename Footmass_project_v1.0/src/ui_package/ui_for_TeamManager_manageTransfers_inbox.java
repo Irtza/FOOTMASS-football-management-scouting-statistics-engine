@@ -26,7 +26,7 @@ public class ui_for_TeamManager_manageTransfers_inbox {
 	/**
 	 * @wbp.parser.entryPoint
 	 */
-	public void initialize(String tempname, String tempclub) 
+	public void initialize(final String tempname, final String tempclub) 
 	{
 		Controller_footmass controllerobj = Controller_footmass.getInstance();
 		

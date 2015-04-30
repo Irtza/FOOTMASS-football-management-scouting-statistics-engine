@@ -24,13 +24,11 @@ public class ui_for_TeamManager_manageTransfers_sell {
 	/**
 	 * @wbp.parser.entryPoint
 	 */
-	public void initialize(String tempname, String tempclub) 
+	public void initialize(String tempname, final String tempclub) 
 	{
 		
-		Controller_footmass controllerobj = Controller_footmass.getInstance();
+		final Controller_footmass controllerobj = Controller_footmass.getInstance();
 
-
-		
 		frmPlaceOutgoingTransfer = new JFrame();
 		frmPlaceOutgoingTransfer.setTitle("Place Outgoing Transfer Request");
 		frmPlaceOutgoingTransfer.setVisible(true);

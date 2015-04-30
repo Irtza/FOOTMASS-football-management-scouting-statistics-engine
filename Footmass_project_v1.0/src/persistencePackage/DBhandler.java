@@ -46,10 +46,10 @@ public class DBhandler extends Persistence_Adapter {
 
 			e.printStackTrace();
 		}
-		//C:\Users\Nauman\workspace\Footmass_project_v1.0\data\Database
-		
+		//C:\Users\Irtaza Ali\workspace\Footmass_project_v1.0\data\Database
+		//C:\Users\Irtaza Ali\workspace\Footmass_project_v1.0\data\Database
 		try {
-			java.sql.Connection con = DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\Nauman\\workspace\\Footmass_project_v1.0\\data\\Database\\footmass_db.accdb");
+			java.sql.Connection con = DriverManager.getConnection("jdbc:ucanaccess://..\\Footmass_project_v1.0\\data\\Database\\footmass_db.accdb");
 			Statement statement = con.createStatement();
 			
 			String sql = "SELECT * FROM Player_Pool";
@@ -96,10 +96,10 @@ public class DBhandler extends Persistence_Adapter {
 
 			e.printStackTrace();
 		}
-		//C:\Users\Nauman\workspace\Footmass_project_v1.0\data\Database
+		//C:\Users\Irtaza Ali\workspace\Footmass_project_v1.0\data\Database
 		
 		try {
-			java.sql.Connection con = DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\Nauman\\workspace\\Footmass_project_v1.0\\data\\Database\\footmass_db.accdb");
+			java.sql.Connection con = DriverManager.getConnection("jdbc:ucanaccess://..\\Footmass_project_v1.0\\data\\Database\\footmass_db.accdb");
 			Statement statement = con.createStatement();
 			
 			String sql = "TRUNCATE TABLE Player_Pool";
@@ -138,10 +138,10 @@ public class DBhandler extends Persistence_Adapter {
 
 			e.printStackTrace();
 		}
-		//C:\Users\Nauman\workspace\Footmass_project_v1.0\data\Database
+		//C:\Users\Irtaza Ali\workspace\Footmass_project_v1.0\data\Database
 		
 		try {
-			java.sql.Connection con = DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\Nauman\\workspace\\Footmass_project_v1.0\\data\\Database\\footmass_db.accdb");
+			java.sql.Connection con = DriverManager.getConnection("jdbc:ucanaccess://..\\Footmass_project_v1.0\\data\\Database\\footmass_db.accdb");
 			Statement statement = con.createStatement();
 			
 			String sql = "SELECT * FROM Scout_Pool";
@@ -183,10 +183,10 @@ public class DBhandler extends Persistence_Adapter {
 
 			e.printStackTrace();
 		}
-		//C:\Users\Nauman\workspace\Footmass_project_v1.0\data\Database
+		//C:\Users\Irtaza Ali\workspace\Footmass_project_v1.0\data\Database
 		
 		try {
-			java.sql.Connection con = DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\Nauman\\workspace\\Footmass_project_v1.0\\data\\Database\\footmass_db.accdb");
+			java.sql.Connection con = DriverManager.getConnection("jdbc:ucanaccess://..\\Footmass_project_v1.0\\data\\Database\\footmass_db.accdb");
 			Statement statement = con.createStatement();
 			
 			String sql = "SELECT * FROM Agent_Pool";
@@ -232,10 +232,10 @@ public class DBhandler extends Persistence_Adapter {
 
 			e.printStackTrace();
 		}
-		//C:\Users\Nauman\workspace\Footmass_project_v1.0\data\Database
+		//C:\Users\Irtaza Ali\workspace\Footmass_project_v1.0\data\Database
 		
 		try {
-			java.sql.Connection con = DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\Nauman\\workspace\\Footmass_project_v1.0\\data\\Database\\footmass_db.accdb");
+			java.sql.Connection con = DriverManager.getConnection("jdbc:ucanaccess://..\\Footmass_project_v1.0\\data\\Database\\footmass_db.accdb");
 			Statement statement = con.createStatement();
 			
 			String sql = "SELECT * FROM Manager_Pool";
@@ -277,10 +277,10 @@ public class DBhandler extends Persistence_Adapter {
 
 			e.printStackTrace();
 		}
-		//C:\Users\Nauman\workspace\Footmass_project_v1.0\data\Database
+		//C:\Users\Irtaza Ali\workspace\Footmass_project_v1.0\data\Database
 		
 		try {
-			java.sql.Connection con = DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\Nauman\\workspace\\Footmass_project_v1.0\\data\\Database\\footmass_db.accdb");
+			java.sql.Connection con = DriverManager.getConnection("jdbc:ucanaccess://..\\Footmass_project_v1.0\\data\\Database\\footmass_db.accdb");
 			Statement statement = con.createStatement();
 			
 			String sql = "SELECT * FROM Coach_Pool";

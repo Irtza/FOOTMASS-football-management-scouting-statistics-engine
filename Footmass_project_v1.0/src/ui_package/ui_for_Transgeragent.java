@@ -32,7 +32,7 @@ public class ui_for_Transgeragent
 	 */
 	public void initialize(String username , String password) {
 		
-		Controller_footmass controllerobj = Controller_footmass.getInstance();
+		final Controller_footmass controllerobj = Controller_footmass.getInstance();
 		
 		frame = new JFrame();
 		frame.getContentPane().setBackground(Color.WHITE);

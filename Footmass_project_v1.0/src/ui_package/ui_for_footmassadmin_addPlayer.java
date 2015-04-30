@@ -27,7 +27,7 @@ public class ui_for_footmassadmin_addPlayer {
 	
 	public void initialize()
 	{
-		Controller_footmass controllerobj = Controller_footmass.getInstance();
+		final Controller_footmass controllerobj = Controller_footmass.getInstance();
 		
 		frmAddANew = new JFrame();
 		frmAddANew.setResizable(false);

@@ -30,7 +30,7 @@ public class ui_for_TeamManager {
 	public void initialize( String username , String password) 
 	{
 		
-		Controller_footmass controllerobj = Controller_footmass.getInstance();
+		final Controller_footmass controllerobj = Controller_footmass.getInstance();
 		
 		frmTeamManagersPortal = new JFrame();
 		frmTeamManagersPortal.getContentPane().setBackground(new Color(51, 51, 51));

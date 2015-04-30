@@ -64,7 +64,7 @@ public class ui_for_Scout_ScoutPlayers {
 	 */
 	public void initialize(  ) {
 		
-		Controller_footmass controllerobj = Controller_footmass.getInstance();
+		final Controller_footmass controllerobj = Controller_footmass.getInstance();
 		
 		frmScoutForPlayers = new JFrame();
 		frmScoutForPlayers.setTitle("Scout for Players");
@@ -149,7 +149,7 @@ public class ui_for_Scout_ScoutPlayers {
 		lblMaxShotsAttempted.setBounds(405, 233, 208, 14);
 		frmScoutForPlayers.getContentPane().add(lblMaxShotsAttempted);
 		
-		JTextArea txtrPotentialSigningsList = new JTextArea();
+		final JTextArea txtrPotentialSigningsList = new JTextArea();
 		txtrPotentialSigningsList.setEditable(false);
 		txtrPotentialSigningsList.setBounds(10, 297, 719, 263);
 		frmScoutForPlayers.getContentPane().add(txtrPotentialSigningsList);

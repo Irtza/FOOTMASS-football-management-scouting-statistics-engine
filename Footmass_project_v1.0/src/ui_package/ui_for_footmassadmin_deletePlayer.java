@@ -28,7 +28,7 @@ public class ui_for_footmassadmin_deletePlayer {
 	 */
 	public void initialize()
 	{
-		Controller_footmass controllerobj = Controller_footmass.getInstance();
+		final Controller_footmass controllerobj = Controller_footmass.getInstance();
 		
 		frmDeletePlayer = new JFrame();
 		frmDeletePlayer.setVisible(true);

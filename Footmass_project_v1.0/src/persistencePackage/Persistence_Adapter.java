@@ -8,11 +8,9 @@ import actors.Team_Manager;
 import actors.Transfer_agent;
 import footy.Player;
 
-
-
 //This class needs to handle stuff from the properties file
 //This Class follows A singleton pattern as we need its instance only once\
-//This wouldnt have the redundancey in the data
+//This wouldn't have the redundancy in the data
 
 public class Persistence_Adapter {
 

@@ -59,9 +59,9 @@ public class ui_for_matchAnalyst {
 	/**
 	 * @wbp.parser.entryPoint
 	 */
-	public  void initialize(String home,String away)
+	public  void initialize(final String home,final String away)
 	{		
-		Controller_footmass controllerobj = Controller_footmass.getInstance();
+		final Controller_footmass controllerobj = Controller_footmass.getInstance();
 		
 		Match_Analyst_Recording_Frame = new JFrame();
 		Match_Analyst_Recording_Frame.setTitle("Match Recording Center");
@@ -391,7 +391,7 @@ public class ui_for_matchAnalyst {
 			awaynames[i]=awayobj.getName_player();
 			i++;
 		}
-		JComboBox comboBox = new JComboBox(awaynames);
+		final JComboBox comboBox = new JComboBox(awaynames);
 		comboBox.setBounds(65, 422, 162, 20);
 		panel_3.add(comboBox);
 		
@@ -422,7 +422,7 @@ public class ui_for_matchAnalyst {
 		btnChangePossAway.setBounds(65, 453, 130, 23);
 		panel_3.add(btnChangePossAway);
 		
-		JComboBox comboBox_1 = new JComboBox(homenames);
+		final JComboBox comboBox_1 = new JComboBox(homenames);
 		comboBox_1.setBounds(64, 422, 163, 20);
 		panel.add(comboBox_1);
 		
